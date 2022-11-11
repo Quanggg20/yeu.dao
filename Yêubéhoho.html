@@ -1,9 +1,11 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <HTML>
  <HEAD>
   <TITLE> Anh Yeu Em </TITLE>
   <link rel = "icon" href = 
 "https://png.pngtree.com/png-vector/20220428/ourmid/pngtree-smooth-glossy-heart-vector-file-ai-and-png-png-image_4557871.png" 
  type = "image/x-icon">
+  <link rel="stylesheet" href="style.css">
   <META NAME="Generator" CONTENT="EditPlus">
   <META NAME="Author" CONTENT="">
   <META NAME="Keywords" CONTENT="">
@@ -13,7 +15,7 @@
   height: 100%;
   padding: 0;
   margin: 0;
-  background: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
 }
 canvas {
   position: absolute;
@@ -22,9 +24,27 @@ canvas {
 }
   </style>
  </HEAD>
+  <div class="sp-container">
+  <div class="sp-content">
+      <div class="sp-globe"></div>
+      <h2 class="frame-1">Gửi em</h2>
+      <h2 class="frame-2">Người con gái</h2>
+      <h2 class="frame-3">Mà Anh Thương Nhớ</h2>
+      <h2 class="frame-4">yêu em</h2>
+      <h2 class="frame-5">
+          <span>Phạm</span>
+          <span>Thu</span>
+          <span>Hà</span>
+      </h2>
+      
+  </div>
+</div>
 
  <BODY>
-  <canvas id="blue"></canvas>
+  <div class="box">
+   <canvas id="redboard"></canvas>
+  </div>
+
   <script>
   /*
  * Settingss
@@ -260,7 +280,7 @@ var ParticlePool = (function() {
     onResize();
     render();
   }, 10);
-})(document.getElementById('blue'));
+})(document.getElementById("redboard"));
   </script>
  </BODY>
 </HTML>
